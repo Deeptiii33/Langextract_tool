@@ -3,8 +3,12 @@ Extracts structured information from unstructured text documents based on user-d
 
 --> Used Vertex AI(refer the github link provided for vertex AI configuration)
 Note: Vertex AI is used for service account. To run normally Gemini API Key can be used.
---> After the code is executed a folder is created i.e. 
+--> After the code is executed a folder is created i.e. test_output
+Two files are created inside test_output(extraction_results.jsonl , visualization.html)
 
+
+
+Overview:
 LangExtract is a Python library that uses LLMs to extract structured information from unstructured text documents based on user-defined instructions. It processes materials such as clinical notes or reports, identifying and organizing key details while ensuring the extracted data corresponds to the source text.
 
 Referred Links:
